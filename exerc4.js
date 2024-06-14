@@ -2,6 +2,7 @@
 Matematicamente, para três segmentos formarem um triângulo, o comprimento de cada lado deve ser menor que a soma dos outros dois.
 */
 const prompt = require ('prompt-sync')();
+
 let reta1 = parseFloat(prompt("Insira o tamanho da primeira reta? "));
 let reta2 = parseFloat(prompt("Insira o tamanho da segunda reta? "));
 let reta3 = parseFloat(prompt("Insira o tamanho da terceira reta? "));
